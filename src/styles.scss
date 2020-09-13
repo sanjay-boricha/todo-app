@@ -1,0 +1,11 @@
+@import "~bootstrap";
+@import "~pretty-checkbox/src/pretty-checkbox.scss";
+
+.completed {
+  color: $gray-500 !important;
+  text-decoration: line-through;
+}
+
+button:focus {
+  outline: none !important;
+}
